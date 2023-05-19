@@ -9,7 +9,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: Ball(),
+      home: Scaffold(
+        backgroundColor: Colors.blue,
+        appBar: AppBar(
+          title: const Text('Ask Me Anything'),
+          backgroundColor: Colors.blue[900],
+        ),
+        body: Ball(),
+      ),
     );
   }
 }

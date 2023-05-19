@@ -21,13 +21,7 @@ class _BallState extends State<Ball> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.blue,
-      appBar: AppBar(
-        title: const Text('Ask Me Anything'),
-        backgroundColor: Colors.blue[900],
-      ),
-      body: Center(
+    return Center(
         child: Row(
           children: <Widget>[
             Expanded(
@@ -40,7 +34,6 @@ class _BallState extends State<Ball> {
             ),
           ],
         ),
-      ),
     );
   }
 }
