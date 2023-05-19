@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.blue,
         appBar: AppBar(
+          centerTitle: true,
           title: const Text('Ask Me Anything'),
           backgroundColor: Colors.blue[900],
         ),
